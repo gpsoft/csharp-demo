@@ -39,6 +39,7 @@
             this.btnClickMe.TabIndex = 1;
             this.btnClickMe.Text = "Click me!";
             this.btnClickMe.UseVisualStyleBackColor = true;
+            this.btnClickMe.Click += new System.EventHandler(this.btnClickMe_Click);
             // 
             // FormMain
             // 
